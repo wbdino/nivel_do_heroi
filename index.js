@@ -1,7 +1,7 @@
 let nomeDoHeroi = "Hurk";
 let xpDoHeroi = 6025;
 
-if(xpDoHeroi < 1000){
+if(xpDoHeroi <= 1000){
   xpDoHeroi = "Ferro"
 }
 else if(xpDoHeroi >= 1001 && xpDoHeroi < 2000){
