@@ -1,25 +1,25 @@
 let nomeDoHeroi = "Hurk";
-let xpDoHeroi = 2000;
+let xpDoHeroi = 6025;
 
 if(xpDoHeroi < 1000){
   xpDoHeroi = "Ferro"
 }
-else if(xpDoHeroi >= 1001 || xpDoHeroi < 2000){
+else if(xpDoHeroi >= 1001 && xpDoHeroi < 2000){
   xpDoHeroi = "Bronze";
 }
-else if(xpDoHeroi >= 2001 || xpDoHeroi < 5000){
+else if(xpDoHeroi >= 2001 && xpDoHeroi < 5000){
   xpDoHeroi = "Prata";
 }
-else if(xpDoHeroi >= 5001 || xpDoHeroi < 7000){
+else if(xpDoHeroi >= 5001 && xpDoHeroi < 7000){
   xpDoHeroi = "Ouro";
 }
-else if(xpDoHeroi >= 7001 || xpDoHeroi < 8000){
+else if(xpDoHeroi >= 7001 && xpDoHeroi < 8000){
   xpDoHeroi = "Platina";
 }
-else if(xpDoHeroi >= 8001 || xpDoHeroi < 9000){
+else if(xpDoHeroi >= 8001 && xpDoHeroi < 9000){
   xpDoHeroi = "Ascendente";
 }
-else if(xpDoHeroi >= 9001 || xpDoHeroi < 10000){
+else if(xpDoHeroi >= 9001 && xpDoHeroi < 10000){
   xpDoHeroi = "Imortal";
 }
 else if(xpDoHeroi >= 10001){
